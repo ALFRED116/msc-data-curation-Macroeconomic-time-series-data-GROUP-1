@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this repository or it's dataset, please cite it as below."
+
+title: "Macroeconomic Indicators for Sub-Saharan Africa, 2006–2025 (WDI Extract)"
+version: 1.0.0
+doi: 10.5281/zenodo.XXXXXXX
+date-released: 2026-09-29
+license: CC-BY-4.0
+
+authors:
+  - family names: Tetteh
+    given names: Alfred Asumah
+    Affiliation: University of Cape Coast
+
+  - family names: Nii
+    given names: Okoe Luke Sowah
+    Affiliation: University of Cape Coast
+
+  - family names: Annan
+    given names: Daniel
+    Affiliation: University of Cape Coast
+
+  - family names: Hudu
+    given names: Tahidu
+    Affiliation: University of Cape Coast
+
+repository-code: "https://github.com/ALFRED116/msc-data-curation-macroeconomic-ssa-group-1"
+
+keywords:
+  - sub-Saharan Africa
+  - macroeconomics
+  - World Development Indicators
+  - panel data
+  - GDP
+  - inflation
+  - unemployment
