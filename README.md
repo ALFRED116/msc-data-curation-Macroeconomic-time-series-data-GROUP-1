@@ -111,7 +111,7 @@ Documented monetary variables as constant-price or current-price.
 ## Suggested Citation
 Tetteh, A.A., et al. (2026). Curated Dataset: Macroeconomic Indicators for Sub-Saharan
 Africa, 2006–2025 (WDI Extract)* (Version 1.0) [curated_dataset]. 
-https://github.com/[ALFRED116]/msc-data-curation-macroeconomic-ssa-group1
+https://github.com/ALFRED116/msc-data-curation-Macroeconomic-time-series-data-GROUP-1
 
 ## Software Versions
 - Python 2.2.3
