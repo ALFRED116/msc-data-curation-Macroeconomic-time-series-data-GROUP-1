@@ -1,0 +1,22 @@
+variable_name,variable_label,definition,data_type,unit,allowed_values,missing_value,source_indicator_code,source_indicator_name,source,transformation,notes
+Country name,World Bank country name,string,,ISO 3166 short names,,,,,World Bank WDI,Retained,Naming per WDI
+ISO3 country code,World Bank 3-letter code,string,,ISO 3166 alpha-3,,,,,World Bank WDI,Retained,Stable identifier
+Calendar year,Reference year,integer,,2006–2025,,,,,World Bank WDI,Coerced,Annual
+WDI indicator code,Original WDI code,string,,See code list,,,,,World Bank WDI,Extracted,Retained for traceability
+Indicator name,Human-readable label,string,,See code list,,,,,World Bank WDI,Extracted,Matches WDI
+Indicator value,Numeric value,decimal,,Indicator-specific,NA (empty string),,,,World Bank WDI,Coerced,Zero retained; missing preserved
+Unit of measure,Measurement unit,string,,"percent, constant 2015 US$",,,,,World Bank WDI,Derived,Indicator-specific
+Price basis,Current/constant/modelled,string,,"current price, constant price, modelled",,,,,World Bank WDI,Derived,Documented per indicator
+Observation status,Observed/zero/missing,categorical,,"observed, zero, missing",,,,,World Bank WDI,Derived,Missing vs zero distinguished
+Observation status,Reported or modelled,string,,"reported, modelled",,,,,World Bank WDI / ILO,Derived,Unemployment is modelled ILO
+Periodicity,Reporting frequency,string,,Annual,,,,,World Bank WDI,Constant,Annual
+Source dataset,Original dataset name,string,,World Development Indicators,,,,,World Bank,Constant,WDI
+Retrieval date,Download date,date,,YYYY-MM-DD,,,,,World Bank WDI,Constant,13/07/2026
+GDP growth (annual %),Annual percentage change in constant-price GDP,decimal,percent,Any numeric,,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),World Bank WDI,Renamed,Constant 2015 US$ base,
+GDP per capita (constant 2015 US$),GDP divided by population at constant 2015 prices,decimal,constant 2015 US$,Any positive numeric,,NY.GDP.PCAP.KD,GDP per capita (constant 2015 US$),World Bank WDI,Renamed,Comparable across years,
+Inflation consumer prices (annual %),Annual percentage change in CPI,decimal,percent,Any numeric,,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",World Bank WDI (IMF source),Renamed,Extreme values for Zimbabwe 2019–2020,
+Unemployment total (% of labour force),Share of labour force without work but available and seeking,decimal,percent,0–100,,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labour force) (modeled ILO estimate)",World Bank WDI (ILO source),Renamed,Modelled ILO estimate; not observed,
+General government final consumption expenditure (% of GDP),Government current expenditure on goods and services as share of GDP,decimal,percent,Any numeric,,NE.CON.GOVT.ZS,General government final consumption expenditure (% of GDP),World Bank WDI,Renamed,Includes compensation of employees,
+Trade (% of GDP),Sum of exports and imports as share of GDP,decimal,percent,Any positive numeric,,NE.TRD.GNFS.ZS,Trade (% of GDP),World Bank WDI,Renamed,Openness measure,
+Foreign direct investment net inflows (% of GDP),Net FDI inflows as share of GDP,decimal,percent,Any numeric,,BX.KLT.DINV.WD.GD.ZS,"Foreign direct investment, net inflows (% of GDP)",World Bank WDI (IMF source),Renamed,Can be negative (disinvestment),
+Gross capital formation (% of GDP),Acquisitions less disposals of produced assets as share of GDP,decimal,percent,Any numeric,,NE.GDI.TOTL.ZS,Gross capital formation (% of GDP),World Bank WDI,Renamed,Investment proxy,
