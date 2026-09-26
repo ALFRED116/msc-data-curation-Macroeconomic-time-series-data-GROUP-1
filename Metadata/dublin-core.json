@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcmi": "http://purl.org/dc/dcmitype/"
+    },
+    "@id": "https://github.com/[https://github.com/ALFRED116]/msc-data-curation-macroeconomic-ssa-group1",
+    "@type": "dcmi:Dataset",
+    "dcterms:title": "Macroeconomic Indicators for Sub-Saharan Africa, 2006–2025 (WDI Extract)",
+    "dcterms:creator": [
+        {
+            "@type": "foaf:Person",
+            "foaf:name": "Alfred Asumah Tetteh"
+        },
+        {
+            "@type": "foaf:Person",
+            "foaf:name": "NII OKOE LUKE SOWAH"
+        },
+        {
+            "@type": "foaf:Person",
+            "foaf:name": "DANIEL ANNAN"
+        },
+        {
+            "@type": "foaf:Person",
+            "foaf:name": "TAHIDU HUDU"
+        }
+    ],
+    "dcterms:subject": [
+        "Sub-Saharan Africa",
+        "Macroeconomics",
+        "World Development Indicators",
+        "Panel data"
+    ],
+    "dcterms:description": "Curated longitudinal dataset of eight macroeconomic indicators for 48 sub-Saharan African countries, 2006–2025.",
+    "dcterms:publisher": {
+        "@type": "foaf:Organization",
+        "foaf:name": "University of Cape Coast"
+    },
+    "dcterms:contributor": [
+        "World Bank"
+    ],
+    "dcterms:issued": "2026-09-29",
+    "dcterms:modified": "2026-09-29",
+    "dcterms:type": "dcmi:Dataset",
+    "dcterms:format": "text/csv",
+    "dcterms:identifier": "https://github.com/ALFRED116/msc-data-curation-Macroeconomic-time-series-data-GROUP-1",
+    "dcterms:source": "https://databank.worldbank.org/source/world-development-indicators",
+    "dcterms:language": "en",
+    "dcterms:spatial": "Sub-Saharan Africa",
+    "dcterms:temporal": "2006/2025",
+    "dcterms:rights": "CC BY-4.0",
+    "dcterms:license": "https://creativecommons.org/licenses/by/4.0/",
+    "dcterms:provenance": "Extracted from World Bank WDI DataBank on 15 September 2026; cleaned and reshaped in Python."
+}
