@@ -23,25 +23,25 @@
       </rspStmt>
       <prodStmt>
         <producer>Department of Data Science and Economic Policy, University of Cape Coast</producer>
-        <prodDate>2026-09-29</prodDate>
+        <prodDate>2026-09-20</prodDate>
         <prodPlac>University of Cape Coast, Ghana</prodPlac>
         <software>Python 2.2.3; pandas 2.2.3; openpyxl 3.1</software>
       </prodStmt>
       <distStmt>
         <distrbtr>GitHub</distrbtr>
-        <distDate>2026-09-29</distDate>
+        <distDate>2026-09-26</distDate>
         <contact>alfredtetteh7351@gmail.com, niiokosowah@gmail.com, danielannan72@gmail.com, tahiduhudu57@gmail.com</contact>
       </distStmt>
       <verStmt>
         <version>1.0</version>
-        <versionDate>2026-09-29</versionDate>
+        <versionDate>2026-09-26</versionDate>
         <versionResponsibility>Group 1, DMA 820</versionResponsibility>
         <notes>DDI-Codebook version 2.5 used for this record.</notes>
       </verStmt>
       <biblCit>
         Tetteh, A. A., et al. (2026). Macroeconomic Indicators for Sub-Saharan Africa,
         2006–2025 (WDI Extract) (Version 1.0) [Data set]. GitHub.URL
-        https://github.com/https://ALFRED116/msc-data-curation-macroeconomic-ssa-group1
+        https://github.com/ALFRED116/msc-data-curation-Macroeconomic-time-series-data-GROUP-1
       </biblCit>
       <holdings>University of Cape Coast, Department of Data Science and Economic Policy</holdings>
     </citation>
@@ -72,14 +72,14 @@
       </rspStmt>
       <prodStmt>
         <producer>Group 1, DMA 820: Data Curation and Management</producer>
-        <prodDate>2026-09-29</prodDate>
+        <prodDate>2026-09-20</prodDate>
         <prodPlac>University of Cape Coast, Ghana</prodPlac>
         <software>Python 2.2.3; pandas 2.2.3; openpyxl 3.1; Jupyter Notebook</software>
         <fundAg>Not applicable</fundAg>
       </prodStmt>
       <distStmt>
         <distrbtr>GitHub repository (tagged release v1.0)</distrbtr>
-        <distDate>2026-09-29</distDate>
+        <distDate>2026-09-26</distDate>
         <contact>alfredtetteh7351@gmail.com, niiokosowah@gmail.com, danielannan72@gmail.com, tahiduhudu57@gmail.com</contact>
       </distStmt>
       <serStmt>
@@ -88,7 +88,7 @@
       </serStmt>
       <verStmt>
         <version>1.0</version>
-        <versionDate>2026-09-29</versionDate>
+        <versionDate>2026-09-26</versionDate>
         <notes>Version 1.0 tagged release on GitHub.</notes>
       </verStmt>
       <biblCit>
