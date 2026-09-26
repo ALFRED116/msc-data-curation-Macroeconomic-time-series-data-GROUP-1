@@ -3,7 +3,7 @@
         "dcterms": "http://purl.org/dc/terms/",
         "dcmi": "http://purl.org/dc/dcmitype/"
     },
-    "@id": "https://github.com/[https://github.com/ALFRED116]/msc-data-curation-macroeconomic-ssa-group1",
+    "@id": "https://github.com/ALFRED116/msc-data-curation-Macroeconomic-time-series-data-GROUP-1",
     "@type": "dcmi:Dataset",
     "dcterms:title": "Macroeconomic Indicators for Sub-Saharan Africa, 2006–2025 (WDI Extract)",
     "dcterms:creator": [
@@ -38,8 +38,8 @@
     "dcterms:contributor": [
         "World Bank"
     ],
-    "dcterms:issued": "2026-09-29",
-    "dcterms:modified": "2026-09-29",
+    "dcterms:issued": "2026-09-26",
+    "dcterms:modified": "2026-09-26",
     "dcterms:type": "dcmi:Dataset",
     "dcterms:format": "text/csv",
     "dcterms:identifier": "https://github.com/ALFRED116/msc-data-curation-Macroeconomic-time-series-data-GROUP-1",
