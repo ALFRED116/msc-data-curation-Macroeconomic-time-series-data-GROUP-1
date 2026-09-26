@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codeBook xmlns="ddi:codebook:2_5"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="ddi:codebook:2_5
+          https://ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd"
+          version="2.5"
+          xml:lang="en">
+
+  <!-- ============================================================
+       1. DOCUMENT DESCRIPTION (metadata document, authorship, version)
+       ============================================================ -->
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>DDI-Codebook Metadata for the Sub-Saharan Africa Macroeconomic Time-Series Dataset (Group 1)</titl>
+        <IDNo>msc-data-curation-macroeconomic-ssa-group1-ddi-v1.0</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Nii Okoe Luke Sowah - SE/DMD/25/0001</AuthEnty>
+        <AuthEnty>Alfred Asumah Tetteh - SE/DMD/25/0002</AuthEnty>
+        <AuthEnty>Daniel Annan - SE/DMD/25/0003</AuthEnty>
+        <AuthEnty>Tahidu Hudu - SE/DMD/25/0004</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer>Department of Data Science and Economic Policy, University of Cape Coast</producer>
+        <prodDate>2026-09-29</prodDate>
+        <prodPlac>University of Cape Coast, Ghana</prodPlac>
+        <software>Python 2.2.3; pandas 2.2.3; openpyxl 3.1</software>
+      </prodStmt>
+      <distStmt>
+        <distrbtr>GitHub</distrbtr>
+        <distDate>2026-09-29</distDate>
+        <contact>alfredtetteh7351@gmail.com, niiokosowah@gmail.com, danielannan72@gmail.com, tahiduhudu57@gmail.com</contact>
+      </distStmt>
+      <verStmt>
+        <version>1.0</version>
+        <versionDate>2026-09-29</versionDate>
+        <versionResponsibility>Group 1, DMA 820</versionResponsibility>
+        <notes>DDI-Codebook version 2.5 used for this record.</notes>
+      </verStmt>
+      <biblCit>
+        Tetteh, A. A., et al. (2026). Macroeconomic Indicators for Sub-Saharan Africa,
+        2006–2025 (WDI Extract) (Version 1.0) [Data set]. GitHub.URL
+        https://github.com/https://ALFRED116/msc-data-curation-macroeconomic-ssa-group1
+      </biblCit>
+      <holdings>University of Cape Coast, Department of Data Science and Economic Policy</holdings>
+    </citation>
+    <docStatus>
+      <notes>Complete DDI-Codebook record for the curated dataset. Well formed and
+        intended to validate against the DDI-Codebook 2.5 XML Schema.</notes>
+    </docStatus>
+  </docDscr>
+
+  <!-- ============================================================
+       2. STUDY DESCRIPTION
+       ============================================================ -->
+  <stdyDscr>
+
+    <!-- 2.1 Citation: title, creators, producers, version, repository -->
+    <citation>
+      <titlStmt>
+        <titl>Macroeconomic Indicators for Sub-Saharan Africa, 2006–2025 (WDI Extract)</titl>
+        <subTitl>Curated longitudinal dataset — Group 1 (Macroeconomic time-series data)</subTitl>
+        <IDNo>msc-data-curation-macroeconomic-ssa-group1</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Nii Okoe Luke Sowah - SE/DMD/25/0001</AuthEnty>
+        <AuthEnty>Alfred Asumah Tetteh - SE/DMD/25/0002</AuthEnty>
+        <AuthEnty>Daniel Annan - SE/DMD/25/0003</AuthEnty>
+        <AuthEnty>Tahidu Hudu - SE/DMD/25/0004</AuthEnty>
+        <othId><role>Data curator</role><affiliation>University of Cape Coast</affiliation></othId>
+      </rspStmt>
+      <prodStmt>
+        <producer>Group 1, DMA 820: Data Curation and Management</producer>
+        <prodDate>2026-09-29</prodDate>
+        <prodPlac>University of Cape Coast, Ghana</prodPlac>
+        <software>Python 2.2.3; pandas 2.2.3; openpyxl 3.1; Jupyter Notebook</software>
+        <fundAg>Not applicable</fundAg>
+      </prodStmt>
+      <distStmt>
+        <distrbtr>GitHub repository (tagged release v1.0)</distrbtr>
+        <distDate>2026-09-29</distDate>
+        <contact>alfredtetteh7351@gmail.com, niiokosowah@gmail.com, danielannan72@gmail.com, tahiduhudu57@gmail.com</contact>
+      </distStmt>
+      <serStmt>
+        <serName>DMA 820 Term Paper — Curating Sub-Saharan African Data</serName>
+        <serInfo>Group 1 submission, 2025/2026 Academic Year.</serInfo>
+      </serStmt>
+      <verStmt>
+        <version>1.0</version>
+        <versionDate>2026-09-29</versionDate>
+        <notes>Version 1.0 tagged release on GitHub.</notes>
+      </verStmt>
+      <biblCit>
+        Tetteh, A. A., et al. (2026). Macroeconomic Indicators for Sub-Saharan Africa,
+        2006–2025 (WDI Extract) (Version 1.0) [Data set]. GitHub.URL
+      </biblCit>
+    </citation>
+
+    <!-- 2.2 Study info: abstract, purpose, coverage, unit, universe -->
+    <stdyInfo>
+      <subject>
+        <keyword>Sub-Saharan Africa</keyword>
+        <keyword>Macroeconomics</keyword>
+        <keyword>World Development Indicators</keyword>
+        <keyword>Panel data</keyword>
+        <keyword>GDP</keyword>
+        <keyword>Inflation</keyword>
+        <keyword>Unemployment</keyword>
+        <topClas>Economic Policy &amp; Debt</topClas>
+      </subject>
+      <abstract>
+        A curated longitudinal dataset of eight macroeconomic indicators for 48
+        World Bank–classified sub-Saharan African countries covering the period
+        2006–2025. The dataset supports cross-country and time-series analysis of
+        growth, inflation, employment, trade, investment, and fiscal policy. It
+        preserves the original WDI indicator codes, country codes, years, values and
+        units, and clearly distinguishes missing observations from true zero values.
+        Monetary variables are documented with their price basis (current price,
+        constant price, or modelled).
+      </abstract>
+      <sumDscr>
+        <timePrd event="start" date="2006"/>
+        <timePrd event="end" date="2025"/>
+        <collDate event="start" date="2026-07-13"/>
+        <collDate event="end" date="2026-07-13"/>
+        <nation>Sub-Saharan Africa</nation>
+        <geogCover>Sub-Saharan Africa (World Bank regional classification)</geogCover>
+        <geogUnit>Country</geogUnit>
+        <anlyUnit>Country–year observation</anlyUnit>
+        <universe>
+          All World Bank–classified sub-Saharan African countries for which the
+          selected macroeconomic indicators are available in the World Development
+          Indicators (WDI) database.
+        </universe>
+        <dataKind>Longitudinal (panel) time-series cross-section</dataKind>
+      </sumDscr>
+      <notes>
+        The dataset is a curated derivative of the World Bank World Development
+        Indicators (WDI). The original WDI extract is retained unmodified in
+        data/raw/ and the cleaned dataset is stored in data/processed/.
+      </notes>
+    </stdyInfo>
+
+    <!-- 2.3 Method: data sources, acquisition, selection, processing, QC -->
+    <method>
+      <dataColl>
+        <collMode>Secondary data extraction from a public provider portal</collMode>
+        <resInst>World Bank (World Development Indicators DataBank)</resInst>
+        <timeMeth>Annual time-series extract, 2006–2025</timeMeth>
+        <dataCollector>Group 1, DMA 820</dataCollector>
+        <freq>Annual</freq>
+        <sampProc>
+          No statistical sampling was performed. The dataset is a complete census of
+          available WDI observations for the selected 48 SSA countries, eight
+          indicators, and 20-year window (2006–2025).
+        </sampProc>
+        <collSitu>
+          Retrieved from the WDI DataBank on 15 September 2026. Portal filters applied:
+          Sub-Saharan Africa region, all available countries, eight indicators,
+          2006–2025. Original file retained without modification.
+        </collSitu>
+        <actMin>Automated retrieval and manual verification</actMin>
+        <notes>
+          Data provider: World Bank. Source dataset: World Development Indicators.
+          Direct source: https://databank.worldbank.org/source/world-development-indicators
+          API (optional): https://api.worldbank.org/v2/country/all/indicator/{indicator_code}
+        </notes>
+      </dataColl>
+
+      <dataProcessing>
+        <processing>
+          <notes>Data were processed in Python 2.2.3 (Jupyter Notebook) using pandas 2.2 and openpyxl 3.1.</notes>
+        </processing>
+        <procStep>
+          <stepNo>1</stepNo>
+          <stepDescription>Loaded the raw WDI Excel extract (sheet "Data") skipping footer rows.</stepDescription>
+        </procStep>
+        <procStep>
+          <stepNo>2</stepNo>
+          <stepDescription>Renamed columns to machine-readable names: country_name, country_code, year, indicator_code.</stepDescription>
+        </procStep>
+        <procStep>
+          <stepNo>3</stepNo>
+          <stepDescription>Replaced the WDI missing marker ".." with NA.</stepDescription>
+        </procStep>
+        <procStep>
+          <stepNo>4</stepNo>
+          <stepDescription>Reshaped the dataset from wide to long format (country–year–indicator).</stepDescription>
+        </procStep>
+        <procStep>
+          <stepNo>5</stepNo>
+          <stepDescription>Attached indicator metadata: indicator_name, unit, price_basis, observation_status.</stepDescription>
+        </procStep>
+        <procStep>
+          <stepNo>6</stepNo>
+          <stepDescription>Distinguished missing from zero using value_status (observed, zero, missing).</stepDescription>
+        </procStep>
+        <procStep>
+          <stepNo>7</stepNo>
+          <stepDescription>Added constant fields: periodicity, source_dataset, retrieval_date.</stepDescription>
+        </procStep>
+        <procStep>
+          <stepNo>8</stepNo>
+          <stepDescription>Ran data-quality checks: duplicate keys, impossible values, coverage gaps, summary statistics.</stepDescription>
+        </procStep>
+        <procStep>
+          <stepNo>9</stepNo>
+          <stepDescription>Exported the curated dataset to data/processed/curated_dataset.csv (UTF-8, CSV).</stepDescription>
+        </procStep>
+      </dataProcessing>
+
+      <dataQuality>
+        <checks>
+          <check>Duplicate key check on (country_code, year, indicator_code) — no duplicates found.</check>
+          <check>Impossible-value check on GDP growth and unemployment — flagged but not deleted.</check>
+          <check>Coverage-gap check for sparse country-indicator series (&lt;10 years).</check>
+          <check>Missing vs zero distinguished via value_status.</check>
+        </checks>
+        <notes>
+          Known limitations: unemployment is an ILO modelled estimate; 2025 values
+          may be provisional; country coverage varies by indicator; rebasing and
+          revision may affect comparability over time.
+        </notes>
+      </dataQuality>
+    </method>
+
+    <!-- 2.4 Access: rights, licensing, conditions -->
+    <dataAccs>
+      <setAvail>
+        <accsPlac>
+          GitHub repository (tagged release v1.0):
+          https://github.com/ALFRED116/msc-data-curation-macroeconomic-ssa-group1
+        </accsPlac>
+        <origDate>2026-09-29</origDate>
+      </setAvail>
+      <useStmt>
+        <confDec>Public — no restricted access.</confDec>
+        <restrctn>None beyond the source provider's terms.</restrctn>
+        <citReq>
+          Users must cite the curated dataset (Tetteh et al., 2026) and the original
+          World Bank WDI source.
+        </citReq>
+        <conditions>Source data licensed under CC BY-4.0 by the World Bank.</conditions>
+      </useStmt>
+      <notes>
+        Licensing: The curated dataset and scripts are released under CC BY-4.0.
+        The repository licence does NOT replace the World Bank's terms of use.
+        Source data provider: World Bank (CC BY-4.0).
+        https://datacatalog.worldbank.org/int/public-licenses#cc-by
+      </notes>
+    </dataAccs>
+
+    <!-- 2.5 File description: physical data file and format -->
+    <othrStdyMat>
+      <relMat>
+        <citation>
+          <titlStmt><titl>README.md, codebook.csv, data_quality.md, processing_log.md</titl></titlStmt>
+        </citation>
+        <notes>Supporting documentation available in the repository.</notes>
+      </relMat>
+      <relStdy>
+        <citation>
+          <titlStmt><titl>World Development Indicators (WDI)</titl></titlStmt>
+          <biblCit>World Bank. World Development Indicators. https://databank.worldbank.org/source/world-development-indicators</biblCit>
+        </citation>
+      </relStdy>
+    </othrStdyMat>
+
+  </stdyDscr>
+
+  <!-- ============================================================
+       3. FILE DESCRIPTION
+       ============================================================ -->
+  <fileDscr ID="F1">
+    <fileTxt>
+      <fileName>curated_dataset.csv</fileName>
+      <fileCont>
+        Curated longitudinal dataset in long format (country–year–indicator) with
+        indicator metadata and missing/zero distinction.
+      </fileCont>
+      <fileType>text/csv</fileType>
+      <fileFormat>CSV (comma-separated values, UTF-8)</fileFormat>
+      <filePlac>data/processed/curated_dataset.csv</filePlac>
+      <fileQnty>Rows: approximately 7,680; Columns: 13</fileQnty>
+      <fileStruc>Long format; one row per country–year–indicator observation.</fileStruc>
+      <recPrd event="start" date="2006"/>
+      <recPrd event="end" date="2025"/>
+    </fileTxt>
+    <notes>
+      Companion files: README.md, LICENSE, CITATION.cff, code/data_preparation.ipynb,
+      documentation/codebook.csv, documentation/data_quality.md,
+      documentation/processing_log.md, metadata/dublin-core.jsonld,
+      metadata/ddi-codebook.xml.
+    </notes>
+  </fileDscr>
+
+  <!-- ============================================================
+       4. VARIABLE DESCRIPTION (every variable in the processed dataset)
+       ============================================================ -->
+  <dataDscr>
+
+    <!-- 4.1 Identification / structural variables -->
+    <var ID="V1" name="country_name" files="F1" dcml="0">
+      <labl>Country name</labl>
+      <txt>World Bank country name for the sub-Saharan African country.</txt>
+      <qstn><preQTxt>Country name</preQTxt></qstn>
+      <varFormat type="character" schema="other"/>
+      <notes>Naming follows World Bank conventions; compare only with the same WDI vintage.</notes>
+    </var>
+
+    <var ID="V2" name="country_code" files="F1" dcml="0">
+      <labl>ISO3 country code</labl>
+      <txt>World Bank 3-letter country identifier (ISO 3166 alpha-3).</txt>
+      <qstn><preQTxt>Country code</preQTxt></qstn>
+      <varFormat type="character" schema="ISO 3166-1 alpha-3"/>
+      <notes>Stable identifier; use for merges.</notes>
+    </var>
+
+    <var ID="V3" name="year" files="F1" dcml="0">
+      <labl>Calendar year</labl>
+      <txt>Reference year for the indicator value.</txt>
+      <qstn><preQTxt>Year</preQTxt></qstn>
+      <varFormat type="numeric" schema="ISO 8601"/>
+      <range UNITS="years" min="2006" max="2025"/>
+      <notes>Annual frequency; 2025 values may be provisional.</notes>
+    </var>
+
+    <var ID="V4" name="indicator_code" files="F1" dcml="0">
+      <labl>WDI indicator code</labl>
+      <txt>Original indicator code assigned by the World Bank.</txt>
+      <qstn><preQTxt>Indicator code</preQTxt></qstn>
+      <varFormat type="character" schema="WDI"/>
+      <catgry><catValu>NY.GDP.MKTP.KD.ZG</catValu><labl>GDP growth (annual %)</labl></catgry>
+      <catgry><catValu>NY.GDP.PCAP.KD</catValu><labl>GDP per capita (constant 2015 US$)</labl></catgry>
+      <catgry><catValu>FP.CPI.TOTL.ZG</catValu><labl>Inflation, consumer prices (annual %)</labl></catgry>
+      <catgry><catValu>SL.UEM.TOTL.ZS</catValu><labl>Unemployment, total (% of labour force, modelled ILO)</labl></catgry>
+      <catgry><catValu>NE.CON.GOVT.ZS</catValu><labl>General government final consumption expenditure (% of GDP)</labl></catgry>
+      <catgry><catValu>NE.TRD.GNFS.ZS</catValu><labl>Trade (% of GDP)</labl></catgry>
+      <catgry><catValu>BX.KLT.DINV.WD.GD.ZS</catValu><labl>Foreign direct investment, net inflows (% of GDP)</labl></catgry>
+      <catgry><catValu>NE.GDI.TOTL.ZS</catValu><labl>Gross capital formation (% of GDP)</labl></catgry>
+      <notes>Retained to preserve traceability to the source.</notes>
+    </var>
+
+    <var ID="V5" name="indicator_name" files="F1" dcml="0">
+      <labl>Indicator name</labl>
+      <txt>Human-readable indicator label.</txt>
+      <qstn><preQTxt>Indicator name</preQTxt></qstn>
+      <varFormat type="character" schema="other"/>
+      <notes>Matches the WDI official label.</notes>
+    </var>
+
+    <!-- 4.2 Measurement variables -->
+    <var ID="V6" name="value" files="F1" dcml="6">
+      <labl>Indicator value</labl>
+      <txt>Numeric value of the indicator.</txt>
+      <qstn><preQTxt>Value</preQTxt></qstn>
+      <varFormat type="numeric" schema="other"/>
+      <notes>Zero retained as 0; missing preserved as empty string. Missing value convention: empty string / NA.</notes>
+    </var>
+
+    <var ID="V7" name="unit" files="F1" dcml="0">
+      <labl>Unit of measure</labl>
+      <txt>Measurement unit for the indicator.</txt>
+      <qstn><preQTxt>Unit</preQTxt></qstn>
+      <varFormat type="character" schema="other"/>
+      <catgry><catValu>percent</catValu><labl>Percent</labl></catgry>
+      <catgry><catValu>constant 2015 US$</catValu><labl>Constant 2015 US dollars</labl></catgry>
+      <notes>Unit is indicator-specific.</notes>
+    </var>
+
+    <var ID="V8" name="price_basis" files="F1" dcml="0">
+      <labl>Price basis</labl>
+      <txt>Whether monetary values are current-price, constant-price, or modelled.</txt>
+      <qstn><preQTxt>Price basis</preQTxt></qstn>
+      <varFormat type="character" schema="other"/>
+      <catgry><catValu>current price</catValu><labl>Current price</labl></catgry>
+      <catgry><catValu>constant price</catValu><labl>Constant price (2015 US$)</labl></catgry>
+      <catgry><catValu>modelled</catValu><labl>Modelled estimate</labl></catgry>
+      <notes>Critical for comparability over time.</notes>
+    </var>
+
+    <!-- 4.3 Quality / status variables -->
+    <var ID="V9" name="value_status" files="F1" dcml="0">
+      <labl>Observation status</labl>
+      <txt>Whether the value is observed, a true zero, or missing.</txt>
+      <qstn><preQTxt>Value status</preQTxt></qstn>
+      <varFormat type="character" schema="other"/>
+      <catgry><catValu>observed</catValu><labl>Observed value</labl></catgry>
+      <catgry><catValu>zero</catValu><labl>True zero value</labl></catgry>
+      <catgry><catValu>missing</catValu><labl>Missing value</labl></catgry>
+      <notes>Makes missing vs zero explicit.</notes>
+    </var>
+
+    <var ID="V10" name="observation_status" files="F1" dcml="0">
+      <labl>Observation status flag</labl>
+      <txt>Whether the value is reported observed or modelled.</txt>
+      <qstn><preQTxt>Observation status</preQTxt></qstn>
+      <varFormat type="character" schema="other"/>
+      <catgry><catValu>reported</catValu><labl>Reported</labl></catgry>
+      <catgry><catValu>modelled</catValu><labl>Modelled estimate</labl></catgry>
+      <catgry><catValu>estimated</catValu><labl>Estimated</labl></catgry>
+      <catgry><catValu>provisional</catValu><labl>Provisional</labl></catgry>
+      <notes>Relevant for unemployment (modelled ILO estimate).</notes>
+    </var>
+
+    <!-- 4.4 Constant / provenance variables -->
+    <var ID="V11" name="periodicity" files="F1" dcml="0">
+      <labl>Periodicity</labl>
+      <txt>Reporting frequency.</txt>
+      <qstn><preQTxt>Periodicity</preQTxt></qstn>
+      <varFormat type="character" schema="other"/>
+      <catgry><catValu>Annual</catValu><labl>Annual</labl></catgry>
+      <notes>Annual for all indicators.</notes>
+    </var>
+
+    <var ID="V12" name="source_dataset" files="F1" dcml="0">
+      <labl>Source dataset</labl>
+      <txt>Original dataset name.</txt>
+      <qstn><preQTxt>Source dataset</preQTxt></qstn>
+      <varFormat type="character" schema="other"/>
+      <catgry><catValu>World Development Indicators</catValu><labl>World Development Indicators</labl></catgry>
+      <notes>World Bank WDI.</notes>
+    </var>
+
+    <var ID="V13" name="retrieval_date" files="F1" dcml="0">
+      <labl>Retrieval date</labl>
+      <txt>Date the data were downloaded from the source provider.</txt>
+      <qstn><preQTxt>Retrieval date</preQTxt></qstn>
+      <varFormat type="date" schema="ISO 8601"/>
+      <notes>13 July 2026 (WDI extract date).</notes>
+    </var>
+
+  </dataDscr>
+
+  <!-- ============================================================
+       5. END OF RECORD
+       ============================================================ -->
+  <notes>
+    This DDI-Codebook record describes the curated dataset
+    "Macroeconomic Indicators for Sub-Saharan Africa, 2006–2025 (WDI Extract)".
+    DDI-Codebook version 2.5 was used. It is intended to be well formed and to
+    validate against the DDI-Codebook 2.5 XML Schema. Every variable in the
+    processed dataset is documented, including label, definition, type, unit,
+    codes and missing-value conventions.
+  </notes>
+
+</codeBook>
