@@ -14,7 +14,7 @@
 | **Data provider** | World Bank |
 | **Source dataset title** | World Development Indicators (WDI) |
 | **Source landing page** | https://databank.worldbank.org/source/world-development-indicators |
-| **API (optional)** | https://api.worldbank.org/v2/country/all/indicator/{indicator_code} |
+| **API (optional)** | https://api.worldbank.org/v2/indicator |
 | **Licence (source)** | CC BY-4.0 — https://datacatalog.worldbank.org/int/public-licenses#cc-by |
 
 > The World Bank is the original producer and owner of the WDI data.
