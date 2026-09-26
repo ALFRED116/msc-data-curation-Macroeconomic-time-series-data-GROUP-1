@@ -4,7 +4,7 @@ message: "If you use this repository or it's dataset, please cite it as below."
 title: "Macroeconomic Indicators for Sub-Saharan Africa, 2006–2025 (WDI Extract)"
 version: 1.0.0
 doi: 10.5281/zenodo.XXXXXXX
-date-released: 2026-09-29
+date-released: 2026-09-26
 license: CC-BY-4.0
 
 authors:
