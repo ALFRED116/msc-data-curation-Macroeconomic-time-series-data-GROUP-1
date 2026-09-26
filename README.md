@@ -1,4 +1,5 @@
 # msc-data-curation-Macroeconomic-time-series-data-GROUP-1
+# msc-data-curation-Macroeconomic-time-series-data-GROUP-1
 A curated longitudinal dataset of eight macroeconomic indicators for 48 World Bank-classified sub-Saharan African countries over 20 years (2006 - 2025), sourced from the World Bank's World Development Indicators (WDI). The dataset supports cross-country and time-series analysis of growth, inflation, employment, trade, investment, and fiscal policy.
 
 ## Group Members
